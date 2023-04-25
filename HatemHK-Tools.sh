@@ -7,6 +7,20 @@ cyan='\e[1;36m'
 white='\e[1;37m'
 yellow='\e[1;33m'
 
+read -p "Plese Enter The Username The Tool : " user
+if [ $user == Hatem-Temoo ]; then
+echo "Done.............."
+fi
+
+read -p "Please Enter The Password The Tool : " pass
+if [ $pass == HatemHK1 ]; then
+echo "Nine............"
+else
+echo "Enter..... >>> exit "
+read exit
+exit
+fi
+
 figlet "HatemHK"
 echo ''
 echo -e $yellow '~_~_~_~_~_~_~_~_~_~_~_~_~_~'
